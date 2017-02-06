@@ -8,7 +8,7 @@ public class changeColor : MonoBehaviour {
 			GetComponent<Renderer> ().material.color = Color.blue;
 		if (Input.GetKeyDown (KeyCode.G))
 			GetComponent<Renderer> ().material.color = Color.green;
-		print ("Changed color to red.");
+		//print ("Changed color to red.");
 		// turns object white
 		if (Input.GetKeyDown (KeyCode.Backspace))
 			GetComponent<Renderer> ().material.color = Color.white;
