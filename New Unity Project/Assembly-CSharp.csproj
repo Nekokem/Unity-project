@@ -49,6 +49,7 @@
      <Compile Include="Assets\IFstatment.cs" />
      <Compile Include="Assets\Syntax.cs" />
      <Compile Include="Assets\changeColor.cs" />
+     <Compile Include="Assets\elseClause.cs" />
      <Compile Include="Assets\mathOperators.cs" />
      <Compile Include="Assets\move.cs" />
      <Compile Include="Assets\rotate.cs" />
