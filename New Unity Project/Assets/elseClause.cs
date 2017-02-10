@@ -6,22 +6,35 @@ public class elseClause : MonoBehaviour {
 
 	public string password;
 	public bool userAgreement;
+	public string favoriteAnimal;
+	public int num1 = 4;
+
 
 	// Use this for initialization
 	void Start () {
 		// && = and || = or
 		if (password == "OU812" && userAgreement) {
 			print ("Correct");
-		} 
-
-		else {
+		} else {
 			print ("Incorrect");
 		}
 			
+		if (favoriteAnimal == "Penguine") {
+		
+			print ("favorite");
+		} else {
+			print ("not favorite");
+		}
+	
+		if (num1 == 4) {
+		
+			print ("true");
 
+		} else {
+		
+			print ("false");
+		}
 	}
-
-
 
 
 }
