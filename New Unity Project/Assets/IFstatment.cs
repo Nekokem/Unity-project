@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class IFstatment : MonoBehaviour {
-
+	// else clauses are opposite if statmanets
 	public bool myBool; // default false
 	public string myString = "Dog";
 	public int num1; // default 0

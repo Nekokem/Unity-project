@@ -8,6 +8,7 @@ public class elseClause : MonoBehaviour {
 	public bool userAgreement;
 	public string favoriteAnimal;
 	public int num1 = 4;
+	public string cleanRoom;
 
 
 	// Use this for initialization
@@ -34,6 +35,15 @@ public class elseClause : MonoBehaviour {
 		
 			print ("false");
 		}
+	
+		if (cleanRoom == "yes") {
+		
+			print ("room is clean");
+		} else {
+		
+			print ("room is not clean");
+		}
+	
 	}
 
 
