@@ -8,6 +8,7 @@ public class switchStatments : MonoBehaviour {
 	public ColorsChoices playercolor;
 
 	public int FoodChoices = 3;
+	public int Math = 1;
 
 	public enum GameStates
 	{
@@ -69,6 +70,21 @@ public class switchStatments : MonoBehaviour {
 			break;
 		}
 	
+		switch (Math) {
+
+		case 1:
+			print ("I can do this!!");
+			break;
+		case 2:
+			print ("I hate math");
+			break;
+		case 3:
+			print ("WHY DID YOU HAVE TO ADD LETTERS!!!");
+			break;
+		case 4:
+			print ("I'm out!");
+			break;
+		}
 	}
 
 
