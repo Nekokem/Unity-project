@@ -26,35 +26,25 @@ public class switchStatments : MonoBehaviour {
 
 		switch (playercolor)
 		{
-
-		case ColorsChoices.RED:
-			print("This gives access to all power-ups");
-			break;
-
-		}
-		switch (playercolor)
-		{
-
+			case ColorsChoices.RED:
+				print("This gives access to all power-ups");
+				break;
+		
 		case ColorsChoices.GREEN:
-			print("This gives access to all weapons");
+			print ("This gives access to all weapons");
 			break;
+			
 
+			case ColorsChoices.BLUE:
+				print("Just Dies");
+				break;
 		}
-
-		switch (playercolor)
-		{
-
-		case ColorsChoices.BLUE:
-			print("Just Dies");
-			break;
-
 
 		/*default:   // prints any other thing solution
 			print (color);
 			break;*/
-		}
-	
-		switch (FoodChoices) {
+
+		switch(FoodChoices) {
 
 		case 3:
 			print ("Very Expensive.");
@@ -69,8 +59,8 @@ public class switchStatments : MonoBehaviour {
 			print ("Free!!");
 			break;
 		}
-	
-		switch (Math) {
+
+		switch(Math) {
 
 		case 1:
 			print ("I can do this!!");
@@ -85,10 +75,9 @@ public class switchStatments : MonoBehaviour {
 			print ("I'm out!");
 			break;
 		}
+	
+		}
 	}
-
-
-}
 
 // switchs are better then if/else
 // to variable for us

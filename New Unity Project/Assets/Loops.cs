@@ -10,6 +10,11 @@ public class Loops : MonoBehaviour {
 
 	public string animal = "Wolf";
 
+	int i = 0;
+	public string[] colors;
+
+	public string[] food;
+
 	// Use this for initialization
 	void Start () {
 
@@ -23,10 +28,34 @@ public class Loops : MonoBehaviour {
 			}
 		
 		}
-	
-		
-		
+			
+
+		while (i < colors.Length) 
+		{
+			print (colors[i]);
+			i++;
 		}
 	
+		i = 0;
+		while (i < animal.Length) {
+			print (animal[i]);
+			i++;
+		}
+			
+		i = 0;
+		while (i < food.Length) {
+			print (food [i]);
+			i++;
+		}
+
+		print("Done.");
+	}
 
 }
+
+
+//if and while loops are syntactally the same.
+//while as long as it's true it will never stop running.
+//iterator makes something that increases pr decreases like "i"
+//very fast
+//.length is a paramiter of an arry, a collection of strings.
