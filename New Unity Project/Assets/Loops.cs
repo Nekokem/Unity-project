@@ -15,6 +15,10 @@ public class Loops : MonoBehaviour {
 
 	public string[] food;
 
+	public string[] utauloids;
+
+	public string[] clothes;
+
 	// Use this for initialization
 	void Start () {
 
