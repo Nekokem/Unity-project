@@ -11,6 +11,7 @@ public class lists : MonoBehaviour {
 	//lists are not a function it's an object.
 	public string[] myWeaponArray;
 
+
 	// Use this for initialization
 	void Start () {
 		myWeaponList.Add ("Sword");
