@@ -4,13 +4,13 @@ using UnityEngine;
 
 public class Animalbutton : MonoBehaviour {
 
-	// Use this for initialization
-	void Start () {
-		
-	}
+	public ProblemSolve AnimalList;
+	public string Fish = "Fish";
+
+	public void AddFishToList()
+	{
+		AnimalList.Animals.Add(Fish);
 	
-	// Update is called once per frame
-	void Update () {
-		
 	}
+
 }

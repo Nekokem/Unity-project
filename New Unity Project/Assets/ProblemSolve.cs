@@ -13,7 +13,7 @@ public class ProblemSolve : MonoBehaviour {
 			if (item == "Cat") {
 				print (item);
 			} 
-				
+			Animals.Add ("Fish");
 		
 		}
 		

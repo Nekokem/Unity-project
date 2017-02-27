@@ -48,11 +48,13 @@
   <ItemGroup>
      <Compile Include="Assets\Addtoinventorylist.cs" />
      <Compile Include="Assets\Animalbutton.cs" />
+     <Compile Include="Assets\BirdButton.cs" />
      <Compile Include="Assets\ForLoops.cs" />
      <Compile Include="Assets\IFstatment.cs" />
      <Compile Include="Assets\IfSwitch.cs" />
      <Compile Include="Assets\Inputs.cs" />
      <Compile Include="Assets\Loops.cs" />
+     <Compile Include="Assets\PigButton.cs" />
      <Compile Include="Assets\ProblemSolve.cs" />
      <Compile Include="Assets\Syntax.cs" />
      <Compile Include="Assets\buttonandmouseInput.cs" />
