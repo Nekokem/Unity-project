@@ -33,6 +33,14 @@ public class Loops : MonoBehaviour {
 		
 		}
 			
+		foreach (string item in colors) { //this says for each item that is a string in the colors array,
+			if (item == "Yellow") {      //check if the item = yellow and if it does print yellow
+				print (item);			//if not print not yellow
+			} 
+			else {
+				print ("Not Yellow");
+			}
+		}
 
 		while (i < colors.Length) 
 		{
