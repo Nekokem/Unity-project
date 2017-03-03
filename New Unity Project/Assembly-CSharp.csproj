@@ -50,9 +50,11 @@
      <Compile Include="Assets\Animalbutton.cs" />
      <Compile Include="Assets\BirdButton.cs" />
      <Compile Include="Assets\ForLoops.cs" />
+     <Compile Include="Assets\Foreach.cs" />
      <Compile Include="Assets\IFstatment.cs" />
      <Compile Include="Assets\IfSwitch.cs" />
      <Compile Include="Assets\Inputs.cs" />
+     <Compile Include="Assets\LogicalOperators.cs" />
      <Compile Include="Assets\Loops.cs" />
      <Compile Include="Assets\PigButton.cs" />
      <Compile Include="Assets\ProblemSolve.cs" />
