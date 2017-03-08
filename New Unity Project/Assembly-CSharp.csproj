@@ -59,6 +59,7 @@
      <Compile Include="Assets\Loops.cs" />
      <Compile Include="Assets\PigButton.cs" />
      <Compile Include="Assets\ProblemSolve.cs" />
+     <Compile Include="Assets\Problemtwo.cs" />
      <Compile Include="Assets\Scope.cs" />
      <Compile Include="Assets\Syntax.cs" />
      <Compile Include="Assets\buttonandmouseInput.cs" />
@@ -67,6 +68,7 @@
      <Compile Include="Assets\lists.cs" />
      <Compile Include="Assets\mathOperators.cs" />
      <Compile Include="Assets\move.cs" />
+     <Compile Include="Assets\publicvsprivate.cs" />
      <Compile Include="Assets\rotate.cs" />
      <Compile Include="Assets\switchStatments.cs" />
  <Reference Include="UnityEngine.Analytics">

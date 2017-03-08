@@ -6,8 +6,8 @@ public class Scope : MonoBehaviour {
 
 	public string owner = "Bob";//scope lives in the class it's a class member
 	private string renter = "Kate";
-	public string renterDog= "Sugar";
-	private string renterChild = "Chris";
+	public string renterDog= "Sugar"; // Can be seen by Unity
+	private string renterChild = "Chris"; // Can't be seen by Unity
 
 	public void Awake()
 	{
@@ -30,7 +30,7 @@ public class Scope : MonoBehaviour {
 	}
 
 
-	void Start () 
+	public void Start () 
 	{
 		string cat = "Frank";
 		if (renterDog == "Sugar") {
