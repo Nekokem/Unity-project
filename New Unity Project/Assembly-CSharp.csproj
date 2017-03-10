@@ -62,6 +62,7 @@
      <Compile Include="Assets\Problemtwo.cs" />
      <Compile Include="Assets\Scope.cs" />
      <Compile Include="Assets\Syntax.cs" />
+     <Compile Include="Assets\VoidFunction.cs" />
      <Compile Include="Assets\buttonandmouseInput.cs" />
      <Compile Include="Assets\changeColor.cs" />
      <Compile Include="Assets\elseClause.cs" />
