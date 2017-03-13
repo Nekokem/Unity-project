@@ -66,6 +66,7 @@
      <Compile Include="Assets\buttonandmouseInput.cs" />
      <Compile Include="Assets\changeColor.cs" />
      <Compile Include="Assets\elseClause.cs" />
+     <Compile Include="Assets\functionsWithParameters.cs" />
      <Compile Include="Assets\lists.cs" />
      <Compile Include="Assets\mathOperators.cs" />
      <Compile Include="Assets\move.cs" />
