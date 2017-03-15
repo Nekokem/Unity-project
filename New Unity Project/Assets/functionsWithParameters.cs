@@ -6,6 +6,7 @@ using UnityEngine.UI;
 public class functionsWithParameters : MonoBehaviour {
 
 	public int health = 100;
+	public int magic = 50;
 
 	void Start ()
 	{
@@ -15,6 +16,8 @@ public class functionsWithParameters : MonoBehaviour {
 		print (health);
 		ReplaceHealth (25, 20);
 		print (health);
+		AddMagic (25);
+		print (magic);
 	}
 
 	public void AddHealth (int _h)
@@ -25,6 +28,12 @@ public class functionsWithParameters : MonoBehaviour {
 	public void ReplaceHealth (int _a, int _b)
 	{
 		health = _a + _b;
+	}
+
+	public void AddMagic (int _m)
+	{
+
+		magic += _m;
 	}
 
 	public void WelcomePlayer (string _name) 
@@ -48,4 +57,10 @@ public class functionsWithParameters : MonoBehaviour {
 		WelcomePlayer (myInputField.text);
 	}
 
+	void WelcomeUser (string _name)
+	{
+		userName = _name;
+		print ("Welcome " + _name + ", get ready to play!");
+
+	}
 }
