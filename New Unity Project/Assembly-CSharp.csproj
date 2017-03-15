@@ -60,6 +60,7 @@
      <Compile Include="Assets\PigButton.cs" />
      <Compile Include="Assets\ProblemSolve.cs" />
      <Compile Include="Assets\Problemtwo.cs" />
+     <Compile Include="Assets\ReturnFunction.cs" />
      <Compile Include="Assets\Scope.cs" />
      <Compile Include="Assets\Syntax.cs" />
      <Compile Include="Assets\VoidFunction.cs" />
