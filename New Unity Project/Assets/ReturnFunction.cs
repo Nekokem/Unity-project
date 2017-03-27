@@ -52,7 +52,6 @@ public class ReturnFunction : MonoBehaviour {
 		firstPlayer = ChooseFirstPlayer ();
 		int num1 = 9248493;
 		int num2 = 7736428;
-		print (Difference);
 	}
 
 	float Sum (float num1, float num2)
