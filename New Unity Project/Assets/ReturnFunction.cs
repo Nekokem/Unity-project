@@ -85,14 +85,15 @@ public class ReturnFunction : MonoBehaviour {
 	float AverageCustomersInWeek(float[] customers)
 	{
 		float sum = 0;
-		float averageCustomers;
+		float averageCustomer;
 
 		foreach (float customer in customers) {
 		
 			sum += customer;
 		}
-	
-		return averageCustomers;
+		averageCustomer = sum / customers.Length;
+
+		return averageCustomer;
 	}
 
 	int Difference (int num1, int num2)
