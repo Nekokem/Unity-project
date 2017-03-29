@@ -52,6 +52,8 @@ public class ReturnFunction : MonoBehaviour {
 		firstPlayer = ChooseFirstPlayer ();
 		int num1 = 9248493;
 		int num2 = 7736428;
+		float[] customers = { 55f, 47f, 79f, 90f, 105f, 130f };
+		print (AverageCustomersInWeek(customers));
 	}
 
 	float Sum (float num1, float num2)
@@ -79,6 +81,18 @@ public class ReturnFunction : MonoBehaviour {
 		average = sum / scores.Length;
 
 		return average;
+	}
+	float AverageCustomersInWeek(float[] customers)
+	{
+		float sum = 0;
+		float averageCustomers;
+
+		foreach (float customer in customers) {
+		
+			sum += customer;
+		}
+	
+		return averageCustomers;
 	}
 
 	int Difference (int num1, int num2)
