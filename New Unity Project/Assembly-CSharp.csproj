@@ -57,12 +57,14 @@
      <Compile Include="Assets\Inputs.cs" />
      <Compile Include="Assets\LogicalOperators.cs" />
      <Compile Include="Assets\Loops.cs" />
+     <Compile Include="Assets\MoneyInput.cs" />
      <Compile Include="Assets\PigButton.cs" />
      <Compile Include="Assets\ProblemSolve.cs" />
      <Compile Include="Assets\Problemtwo.cs" />
      <Compile Include="Assets\ReturnFunction.cs" />
      <Compile Include="Assets\Scope.cs" />
      <Compile Include="Assets\Syntax.cs" />
+     <Compile Include="Assets\VendingMachine.cs" />
      <Compile Include="Assets\VoidFunction.cs" />
      <Compile Include="Assets\buttonandmouseInput.cs" />
      <Compile Include="Assets\changeColor.cs" />
