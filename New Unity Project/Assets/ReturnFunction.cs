@@ -103,4 +103,22 @@ public class ReturnFunction : MonoBehaviour {
 		return sum;
 	}
 
+	string WaterFountain ()
+	{
+	
+		return "Water";
+	}
+
+	float VendingMechine (float money) 
+	{
+		float coke = 1.50f;
+		float change = 0f;
+		if (money >= coke) {
+			change = money - coke;
+		}
+		print ("One Coke Dispenced.");
+		return 1.50f;
+	
+	}
+
 }
