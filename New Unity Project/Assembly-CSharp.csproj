@@ -50,6 +50,7 @@
      <Compile Include="Assets\Addtoinventorylist.cs" />
      <Compile Include="Assets\Animalbutton.cs" />
      <Compile Include="Assets\BirdButton.cs" />
+     <Compile Include="Assets\Calculator.cs" />
      <Compile Include="Assets\ForLoops.cs" />
      <Compile Include="Assets\Foreach.cs" />
      <Compile Include="Assets\IFstatment.cs" />

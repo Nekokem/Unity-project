@@ -1,8 +1,20 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class VendingMachine : MonoBehaviour {
+
+	public Text buttonLabel;
+
+
+	void Start ()
+	{
+	
+		buttonLabel.text = productName + " " + productPrice;
+		transform.parent.name = productName + " " + productPrice;
+
+	}
 
 	public MoneyInput moneyInput;
 
